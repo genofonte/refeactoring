@@ -1,0 +1,14 @@
+{
+  "author": {
+    "name": "refactoring",
+    "email": "joe@whatever.com",
+    "url": "https://whatever.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.2.2"
+  },
+  "scripts": {
+      "test": "jest"
+    }
+}
