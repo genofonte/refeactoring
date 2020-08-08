@@ -1,4 +1,4 @@
-const statement = require('./app');
+const app = require('./app');
 
 let plays = {
     "hamlet": {"name": "Hamlet", "type": "tragedy"},
@@ -33,5 +33,5 @@ You earned 47 credits
 `;
 
 test('first function', () => {
-    expect(statement(invoices, plays)).toBe(result);
+    expect(app.statement(invoices, plays)).toBe(result);
   });
