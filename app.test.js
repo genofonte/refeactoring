@@ -1,28 +1,29 @@
-const app = require('./app');
+/* eslint-disable quotes */
+const app = require('./statement.js');
 
-let plays = {
-    "hamlet": {"name": "Hamlet", "type": "tragedy"},
-    "as-like": {"name": "As You Like It", "type": "comedy"},
-    "othello": {"name": "Othello", "type": "tragedy"}
-  };
+const plays = {
+  hamlet: { name: "Hamlet", type: "tragedy" },
+  "as-like": { name: "As You Like It", type: "comedy" },
+  othello: { name: "Othello", type: "tragedy" },
+};
 
-  let invoices =  {
-      "customer": "BigCo",
-      "performances": [
-        {
-          "playID": "hamlet",
-          "audience": 55
-        },
-        {
-          "playID": "as-like",
-          "audience": 35
-        },
-        {
-          "playID": "othello",
-          "audience": 40
-        }
-      ]
-    }
+const invoices = {
+  customer: "BigCo",
+  performances: [
+    {
+      playID: "hamlet",
+      audience: 55,
+    },
+    {
+      playID: "as-like",
+      audience: 35,
+    },
+    {
+      playID: "othello",
+      audience: 40,
+    },
+  ],
+}
   ;
 const result = `Statement for BigCo
   Hamlet: $650.00 (55 seats)
@@ -33,5 +34,5 @@ You earned 47 credits
 `;
 
 test('first function', () => {
-    expect(app.statement(invoices, plays)).toBe(result);
-  });
+  expect(app.statement(invoices, plays)).toBe(result);
+});
