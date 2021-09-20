@@ -2,9 +2,9 @@
   "author": {
     "name": "refactoring",
     "email": "joe@whatever.com",
-    "url": "https://whatever.com"
+    "url": "https://whatever.com",
+    "type": "module"
   },
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
