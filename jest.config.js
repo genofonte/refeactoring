@@ -9,7 +9,7 @@ module.exports = {
   // bail: 0,
 
   // The directory where Jest should store its cached dependency information
-  // cacheDirectory: "/private/var/folders/5x/cwjhsywj2zj6rsq6j6kr2w_00000gn/T/jest_dx",
+  // cacheDirectory: "/private/var/folders/wv/gs3qh3414gd6bf29y6bjp4b40000gp/T/jest_dy",
 
   // Automatically clear mock calls and instances between every test
   clearMocks: true,
@@ -112,7 +112,7 @@ module.exports = {
   // restoreMocks: false,
 
   // The root directory that Jest should scan for tests and modules within
-  rootDir: "src",
+  // rootDir: undefined,
 
   // A list of paths to directories that Jest should use to search for files in
   // roots: [
@@ -155,7 +155,7 @@ module.exports = {
   // ],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
-  testRegex: ['test.js'],
+  // testRegex: [],
 
   // This option allows the use of a custom results processor
   // testResultsProcessor: undefined,
@@ -173,20 +173,19 @@ module.exports = {
   // transform: undefined,
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
-   transformIgnorePatterns: [
-    "/src/"
-   ],
+  // transformIgnorePatterns: [
+  //   "/node_modules/"
+  // ],
 
   // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
   // unmockedModulePathPatterns: undefined,
 
   // Indicates whether each individual test should be reported during the run
-   verbose: true,
+  // verbose: undefined,
 
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],
 
   // Whether to use watchman for file crawling
   // watchman: true,
-  
 };
